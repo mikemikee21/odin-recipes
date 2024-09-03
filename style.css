@@ -1,18 +1,48 @@
 *
 {
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     background-color: lightcoral;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-
+body
+{
+    width: 800px;
+    margin: 16px auto;
+}
 
 p {
-    background-color: rgb(173, 217, 230);
+    padding: 10px 10px 10px 20px;
 }
 
 
 h1 {
     color: rgb(0, 102, 139);
     font-weight: bold;
+    text-align: center;
+}
+
+
+ul
+{
+    width: 400px;
+}
+
+.one, .two, .three
+{
+    display: inline;
+    font-size: 18px;
+}
+
+
+h2
+{
+    padding: 10px 10px 10px 0px;
+}
+
+li
+{
+    padding-left: 30px;
 }
